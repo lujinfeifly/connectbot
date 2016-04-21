@@ -860,7 +860,7 @@ public class ConsoleActivity extends Activity {
 	@Override
 	public void onPause() {
 		super.onPause();
-		Log.d(TAG, "onPause called");
+		Log.i(TAG, "onPause called");
 
 		if (forcedOrientation && bound != null)
 			bound.setResizeAllowed(false);
